@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\AAAUW\514\Lab3_pcb-design\lab3_ltr390_lm317\lab3_ltr390_lm317.kicad_sch</source>
+    <date>2026-01-29T23:39:51-0800</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lab3_ltr390_lm317.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <description>capacitor, small US symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">capacitor, small US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small_US" description="capacitor, small US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa1fb5e2-0ae5-4e6f-aa04-ab5950b238f9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1.0µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <description>capacitor, small US symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">capacitor, small US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small_US" description="capacitor, small US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de232225-54e1-4d22-b1f9-081322621073</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2c4c418-0e87-4527-a9f4-d11c7566cccd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e720bfc8-d328-4009-82eb-5c4905ccb06c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7703f34e-fbcd-422f-8eff-52d54b9e408c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb46b4c5-62cf-49cc-b1e5-109d8ae8f936</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>390Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Variable resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Variable resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Variable_US" description="Variable resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor variable potentiometer rheostat"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ab35ada-c204-4b16-bad8-3337497736d7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>240Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa797977-a3e5-463d-a1c5-501e77d6f4cc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd248d60-b25e-4f29-abc9-d6599a8d9060</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ff1a7e4-090a-4b86-93e4-ebee5f4766ce</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa2b0ba-401f-42f5-bcef-b2a5b9def6be</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6399c326-a73d-48bd-8e8a-0a68f4032e45</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM317BD2TG</value>
+      <footprint>LM317:D2PAK3_ONS</footprint>
+      <datasheet>LM317BD2TG</datasheet>
+      <fields>
+        <field name="Footprint">LM317:D2PAK3_ONS</field>
+        <field name="Datasheet">LM317BD2TG</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="LM317BD2TG" part="LM317BD2TG" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="LM317BD2TG"/>
+      <property name="ki_fp_filters" value="D2PAK3_ONS D2PAK3_ONS-M D2PAK3_ONS-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11b3972f-1b59-4287-915d-71eb3c5fa258</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LTR-390UV-01</value>
+      <footprint>LTR390:SMD6_LTR-390UV-01_LTO</footprint>
+      <datasheet>LTR-390UV-01</datasheet>
+      <fields>
+        <field name="Footprint">LTR390:SMD6_LTR-390UV-01_LTO</field>
+        <field name="Datasheet">LTR-390UV-01</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="LTR390UV-01" part="LTR-390UV-01" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="lab3_ltr390_lm317.kicad_sch"/>
+      <property name="ki_keywords" value="LTR-390UV-01"/>
+      <property name="ki_fp_filters" value="SMD6_LTR-390UV-01_LTO SMD6_LTR-390UV-01_LTO-M SMD6_LTR-390UV-01_LTO-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5604eb45-9044-4964-9f17-5a98b6376c43</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="SDA" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small_US">
+      <description>capacitor, small US symbol</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">capacitor, small US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Variable_US">
+      <description>Variable resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Variable_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Variable resistor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM317BD2TG" part="LM317BD2TG">
+      <docs>LM317BD2TG</docs>
+      <footprints>
+        <fp>D2PAK3_ONS</fp>
+        <fp>D2PAK3_ONS-M</fp>
+        <fp>D2PAK3_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LM317BD2TG</field>
+        <field name="Footprint">D2PAK3_ONS</field>
+        <field name="Datasheet">LM317BD2TG</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="unspecified"/>
+        <pin num="2" name="ADJ" type="unspecified"/>
+        <pin num="3" name="VIN" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTR390UV-01" part="LTR-390UV-01">
+      <docs>LTR-390UV-01</docs>
+      <footprints>
+        <fp>SMD6_LTR-390UV-01_LTO</fp>
+        <fp>SMD6_LTR-390UV-01_LTO-M</fp>
+        <fp>SMD6_LTR-390UV-01_LTO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LTR-390UV-01</field>
+        <field name="Footprint">SMD6_LTR-390UV-01_LTO</field>
+        <field name="Datasheet">LTR-390UV-01</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="INT" type="input"/>
+        <pin num="5" name="SCL" type="output"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>E:\KiCAD\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\KiCAD\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LM317BD2TG">
+      <uri>D:\AAAUW\514\Lab3_pcb-design\footprint_symbol\ul_LM317BD2TG\KiCADv6\2026-01-30_03-09-06.kicad_sym</uri>
+    </library>
+    <library logical="LTR390UV-01">
+      <uri>D:\AAAUW\514\Lab3_pcb-design\footprint_symbol\ul_LTR-390UV-01\KiCADv6\2026-01-30_02-44-09.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT" pintype="unspecified"/>
+    </net>
+    <net code="2" name="+3V3" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="INT" pintype="input"/>
+    </net>
+    <net code="3" name="/SCL" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SCL" pintype="output"/>
+    </net>
+    <net code="4" name="/SDA" class="Default">
+      <node ref="J1" pin="2" pinfunction="SDA" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="6" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(U1-ADJ)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="ADJ" pintype="unspecified"/>
+    </net>
+    <net code="8" name="VCC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="9" name="unconnected-(U2-NC-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

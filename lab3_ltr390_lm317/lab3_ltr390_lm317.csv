@@ -1,0 +1,12 @@
+#,Reference,Qty,Value,Footprint,DNP
+1,"C1, C3",2,0.1米F,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+2,C2,1,1.0米F,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+3,C4,1,4.7米F,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+4,D1,1,LED,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,
+5,J1,1,Conn_01x04_Pin,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,
+6,R1,1,390次,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+7,R2,1,240次,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+8,"R3, R4, R5",3,4.7k次,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+9,R6,1,1k次,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+10,U1,1,LM317BD2TG,LM317:D2PAK3_ONS,
+11,U2,1,LTR-390UV-01,LTR390:SMD6_LTR-390UV-01_LTO,
